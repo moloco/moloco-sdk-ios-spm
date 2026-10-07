@@ -10,8 +10,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "MolocoSDK",
-      url: "https://moloco-ios-build.s3.amazonaws.com/moloco-sdk/MolocoSDK-4.11.0.zip",
-      checksum: "84f7b2a1227a2d7f149a2d24dbf9740791fae456108046fa0062758f9393a3b4"
+      url: "https://moloco-ios-build.s3.amazonaws.com/moloco-sdk/MolocoSDK-4.11.1.zip",
+      checksum: "784b8c7654e7133310f5134cf92c038e3a8ddd546947f31d351fd23fe2312987"
     )
   ]
 )
