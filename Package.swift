@@ -11,13 +11,13 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "MolocoSDK",
-      url: "https://moloco-ios-build.s3.amazonaws.com/moloco-sdk/MolocoSDK-4.11.1.zip",
-      checksum: "784b8c7654e7133310f5134cf92c038e3a8ddd546947f31d351fd23fe2312987"
+      url: "https://moloco-ios-build.s3.amazonaws.com/moloco-sdk/MolocoSDK-4.12.0.zip",
+      checksum: "480906a1b66fce3c49cd4554fccae0fd142594b05169dff6615554ab47babe7c"
     ),
     .binaryTarget(
       name: "MolocoCustomAdapter",
-      url: "https://moloco-ios-build.s3.amazonaws.com/moloco-sdk/MolocoCustomAdapter-4.11.1.0.zip",
-      checksum: "2fe4a4f0fabaf7d11c84782ef1e684236abe417285c0c5e808ed708081567b94"
+      url: "https://moloco-ios-build.s3.amazonaws.com/moloco-sdk/MolocoCustomAdapter-4.12.0.0.zip",
+      checksum: "44b6a71879a6ee915e663a3b76d0e117c0e531751b76c5eec24c55255eb86811"
     ),
     // A binary target cannot declare dependencies, so this target links the
     // custom adapter together with the MolocoSDK binary it is built against.
